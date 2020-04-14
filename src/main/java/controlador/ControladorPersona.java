@@ -7,18 +7,27 @@ import vista.ListaPersonas;
 
 
 /**
- *JH
- * @author Lorena Niño
+ *
+ * @author Alexis Gonzalez
  */
 public class   ControladorPersona  implements ActionListener {
-    
+    /**
+     * instancia de clases
+     */
     private ListaPersonas listapersonas;
     private ModelPersona modelpersonas;
-     DefaultListModel lista;
+    DefaultListModel lista;
      
   
+    /**
+     * 
+     * @param listapersonas
+     * @param modelpersonas 
+     */
     
-    
+    /*
+    * contructor de la clase controlador personas,resive 2 parametros el pojo y la vista 
+    */
     public ControladorPersona (ListaPersonas listapersonas,ModelPersona modelpersonas){
         
         this.listapersonas= listapersonas;
@@ -29,7 +38,13 @@ public class   ControladorPersona  implements ActionListener {
         
         
     }
-    
+    /**
+     * 
+     * @param e 
+     * creación evento del botón la cual extiende de la clase action listener
+     * se llama la clase pojo para retornar el valor que digita el usuario por medio de los metodos set y get
+     * se llama al metodo addelement y se pasa por parametro a la vista el getPersona
+     */
     
     public void  actionPerformed(ActionEvent e){
         

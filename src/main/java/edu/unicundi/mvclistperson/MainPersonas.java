@@ -12,12 +12,16 @@ import controlador.ControladorPersona;
         
 /**
  *
- * @author Lorena NiÃ±o
+ * @author Alexis Gonzalez
+ 
  */
 public class MainPersonas {
     
     public static void main(String[] args){
+        /*
+        * se instancía el objeto de cada clase y se pasa por parametro al controlador cada objeto
         
+        */
         ModelPersona model= new ModelPersona();
         ListaPersonas lista= new ListaPersonas();
         

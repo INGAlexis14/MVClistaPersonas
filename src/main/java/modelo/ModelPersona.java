@@ -9,10 +9,13 @@ package modelo;
 
 /**
  *
- * @author Lorena Niño
+ * @author Alexis Gonzalez 
+ * clase Tipo Pojo que contiene Getters Y Setters
  */
 public class ModelPersona {
-    
+    /**
+     *variable String que contiene los nombres de las personas
+     */
     private String persona;
 
     public String getPersona() {
